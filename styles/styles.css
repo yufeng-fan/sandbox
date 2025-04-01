@@ -1,0 +1,55 @@
+.outer-box {
+  display: flex;
+  background-color: lightblue;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.outer-box div {
+  background-color: #eee;
+  height: 50px;
+}
+
+.two-equal {
+  padding: 10px;
+  gap: 10px;
+}
+
+.three-equal {
+  padding: 15px;
+  gap: 15px;
+}
+
+.two-equal div,
+.three-equal div {
+  flex-grow: 1;
+}
+
+.unequal {
+  padding: 12px;
+  gap: 12px;
+}
+
+.unequal div {
+  border: 2px solid #000;
+}
+
+.three-unequal-1 {
+  flex-grow: 2;
+}
+
+.three-unequal-other {
+  flex-grow: 1;
+}
+
+.four-equal-footer {
+  width: 100%;
+}
+
+.four-equal-other {
+  flex-grow: 1;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
